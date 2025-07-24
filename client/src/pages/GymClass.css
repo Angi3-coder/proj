@@ -1,0 +1,62 @@
+li{
+    font-style: italic;
+    list-style: none;
+    margin-top: 1px;
+    text-align: center;
+    padding-bottom: 30px;
+   
+}
+
+form{
+    display: flex;
+    justify-content:space-evenly;
+    height: 30px;
+}
+h1{
+    text-align: center;
+    
+}
+
+
+button {
+    background: #549fe9;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+  
+button:hover {
+    background: #ff4d4d;
+}
+
+
+form{
+    justify-content: center;
+}
+
+#work{
+    text-align: center;
+}
+
+#work2{
+    text-align: center;
+    padding-top: 50px;
+}
+  
+#gym{
+    text-align: center;
+    padding-top: 60px;
+}
+#book{
+    padding-top: 0px;
+    height: 40px;
+    display: flex;
+}
+#id{
+    padding-top: 50px;
+}

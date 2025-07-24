@@ -1,0 +1,116 @@
+header{
+    background-image: url('https://media.istockphoto.com/id/1150114266/photo/fitness-woman-training-on-yoga-mat-with-resistance-workout-exercise-bands-glute-bridge-with.jpg?s=612x612&w=0&k=20&c=y8iRjBfmiK5ryEtKqCgz2viNrYGJ9hfsdJDR8TcnLUw=');
+    background-size: cover;
+    height: 600px;
+    padding-top: 70px;
+    color: black;
+}
+  
+
+
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    
+   
+    
+}
+
+section{
+    text-align: center;
+    font-size: larger;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+ul{
+    text-align: justify;
+    font-size: larger;
+    margin-bottom: 90px;
+    
+}
+
+li{
+    text-align:center;
+    padding-top: 20px;
+    
+
+}
+
+p{
+    font-size: 40px;
+    color: white;
+    padding-top: 90px;
+} 
+
+#title{
+    font-size: 60px;
+    color: rgb(248, 233, 233);
+}
+#title2{
+    font-size: 60px;
+    font-style: normal;
+    
+}
+
+#paragraph{
+    font-size: 30px;
+    font-style: normal;
+}
+
+#title3{
+    font-size: 70px;
+    color: black;
+    font-style: normal;
+    text-decoration: aqua;
+}
+
+#list{
+    font-size: 30px;
+}
+#log{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 10px;
+    padding-inline: 90px;
+}
+#head{
+    background-image: url('https://media.istockphoto.com/id/915283878/video/modern-gym-interior.avif?s=640x640&k=20&c=uMHq0QOHmv8xvVTDDDdYPv7LGEjla0DjS7giTBohS0g=');
+}
+
+#bok{
+    padding-top: 60px;
+}
+
+#prog{
+    padding-top: 40px;
+}
+#Prog{
+    padding-top: 50px;
+}
+#train{
+    text-align: center;
+    padding-top: 30px;
+}
+#form{
+    height: 40px;
+}
+#h2{
+    text-align: center;
+    padding-top: 50px;
+}
+#for{
+    height: 50px;
+}
+#pro{
+    padding-top: 100px;
+    font-size: 60px;
+}
+div{
+    background-color: rgb(212, 226, 230);
+}
