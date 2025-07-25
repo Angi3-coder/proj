@@ -8,14 +8,15 @@ from datetime import timedelta
 
 app = Flask(__name__)
 app.secret_key='My secret key'
-CORS(app, supports_credentials=True, origins=['http://localhost:3000'])
 
 
 # Configure database URI
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///gym.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 #session timeout - auto logout after 30mins
-app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(hours=2)
+
+app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
+app.config['SESSION_COOKIE_SECURE'] = False
 
 db.init_app(app)
 migrate=Migrate(app,db)

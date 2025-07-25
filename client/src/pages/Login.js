@@ -21,17 +21,17 @@ function Login() {
     setError(null);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/login", {
+      const response = await fetch("/login", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(user),
-        credentials: 'include',
       });
       
       const data = await response.json();
 
       if (response.ok && data.Message === 'Logged in successfully') {
-        
+        console.log("log in successful")
+        await new Promise(res => setTimeout(res, 100));
         navigate("/profile")
       } else {
         throw new Error(data.Message || 'Login failed');
